@@ -13,9 +13,8 @@ def rpass():
     passlen = int(input("enter the length of password"))
     s = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
     
-    pass_gen =  "".join(random.sample(s,passlen,))
-    #a = int(passlen)
-    #j = passlen(input)
+    pass_gen =  "".join(random.sample(s,passlen))
+    
     
     validator = 0
     while True:
